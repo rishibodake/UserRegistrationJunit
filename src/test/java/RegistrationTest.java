@@ -45,13 +45,13 @@ public class RegistrationTest {
 
     @Test
     public void givenPassword_whenValid_thenTrue(){
-        boolean Password=obj.checkPassword("aaag56ghhtHHggt");
+        boolean Password=obj.checkPassword("aaag56ghh*tHHggt");
         Assert.assertTrue(Password);
     }
 
     @Test
     public void givenPassword_whenInvalid_thenFalse() {
-        boolean Password=obj.checkPassword("asdghjlhjKKKh");
+        boolean Password=obj.checkPassword("asdghj77lhjKKKh");
         Assert.assertFalse(Password);
     }
 }
