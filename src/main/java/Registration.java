@@ -3,8 +3,8 @@ import java.util.regex.Pattern;
 public class Registration {
     String defaultPattern="^[A-Z][a-zA-Z]{2,}$";
 
-    public boolean checkName(String capital) {
+    public boolean checkName(String Abhishek) {
 
-        return Pattern.matches(defaultPattern,capital);
+        return Pattern.matches(defaultPattern,Abhishek);
     }
 }
