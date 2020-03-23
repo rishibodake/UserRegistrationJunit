@@ -45,8 +45,8 @@ public class RegistrationTest {
 
     @Test
     public void givenPassword_whenValid_thenTrue(){
-        boolean password=obj.checkPassword("aaagghhtt");
-        Assert.assertTrue(password);
+        boolean Password=obj.checkPassword("aaagghhtHHggt");
+        Assert.assertTrue(Password);
     }
 
     @Test
